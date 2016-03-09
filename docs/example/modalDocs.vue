@@ -38,6 +38,17 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </modal>
+      <button class="btn btn-info" @click="bounceModal = true">Bounce modal</button>
+      <modal title="Bounce Modal" :show.sync="bounceModal" effect="bounce" width="800">
+        <div slot="modal-body" class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </modal>
       <button class="btn btn-default" @click="showCustomModal = true">Show custom modal</button>
       <modal :show.sync="showCustomModal" effect="fade" width="50%">
         <div slot="modal-header" class="modal-header">
@@ -114,6 +125,14 @@
   Zoom modal
 </button>
 <modal title="Zoom Modal" :show.sync="zoomModal" effect="zoom" width="400">
+  <div slot="modal-body" class="modal-body">...</div>
+</modal>
+
+<button class="btn btn-primary"
+  @click="bounceModal = true">
+  Bounce modal
+</button>
+<modal title="Bounce Modal" :show.sync="bounceModal" effect="bounce" width="800">
   <div slot="modal-body" class="modal-body">...</div>
 </modal>
 
@@ -215,6 +234,7 @@
         showModal: false,
         fadeModal: false,
         zoomModal: false,
+        bounceModal: false,
         showCustomModal: false,
         largeModal: false,
         smallModal: false

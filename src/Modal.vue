@@ -3,7 +3,8 @@
     v-bind:class="{
     'modal':true,
     'fade':effect === 'fade',
-    'zoom':effect === 'zoom'
+    'zoom':effect === 'zoom',
+    'bounce':effect === 'bounce'
     }"
     >
     <div v-bind:class="{'modal-dialog':true,'modal-lg':large,'modal-sm':small}" role="document"
@@ -145,5 +146,19 @@ import coerceBoolean from './utils/coerceBoolean.js'
     -webkit-transform: translate3d(0, -300px, 0);
     transform: translate3d(0, -300px, 0);
     opacity: 1;
+}
+.modal.bounce .modal-dialog {
+    animation-name: bounce;
+}
+.modal.bounce.in .modal-dialog {
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce {
+  0%    { transform: scale(0.7);  }
+  45%   { transform: scale(1.05); }
+  80%   { transform: scale(0.95); }
+  100%  { transform: scale(1); }
 }
 </style>
