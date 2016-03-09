@@ -151,7 +151,7 @@ import coerceBoolean from './utils/coerceBoolean.js'
     animation-name: bounce;
 }
 .modal.bounce.in .modal-dialog {
-    animation-duration: 0.75s;
+    animation-duration: 0.3s;
     animation-fill-mode: both;
 }
 

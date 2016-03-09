@@ -3870,7 +3870,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".modal {\r\n  -webkit-transition: all 0.3s ease;\r\n  transition: all 0.3s ease;\r\n}\r\n.modal.in {\r\n  background-color: rgba(0,0,0,0.5);\r\n}\r\n.modal.zoom .modal-dialog {\r\n    -webkit-transform: scale(0.1);\r\n    transform: scale(0.1);\r\n    top: 300px;\r\n    opacity: 0;\r\n    -webkit-transition: all 0.3s;\r\n    transition: all 0.3s;\r\n}\r\n.modal.zoom.in .modal-dialog {\r\n    -webkit-transform: scale(1);\r\n    transform: scale(1);\r\n    -webkit-transform: translate3d(0, -300px, 0);\r\n    transform: translate3d(0, -300px, 0);\r\n    opacity: 1;\r\n}\r\n.modal.bounce .modal-dialog {\r\n    -webkit-animation-name: bounce;\r\n            animation-name: bounce;\r\n}\r\n.modal.bounce.in .modal-dialog {\r\n    -webkit-animation-duration: 0.75s;\r\n            animation-duration: 0.75s;\r\n    -webkit-animation-fill-mode: both;\r\n            animation-fill-mode: both;\r\n}\r\n\r\n@-webkit-keyframes bounce {\r\n  0%    { -webkit-transform: scale(0.7); transform: scale(0.7);  }\r\n  45%   { -webkit-transform: scale(1.05); transform: scale(1.05); }\r\n  80%   { -webkit-transform: scale(0.95); transform: scale(0.95); }\r\n  100%  { -webkit-transform: scale(1); transform: scale(1); }\r\n}\r\n\r\n@keyframes bounce {\r\n  0%    { -webkit-transform: scale(0.7); transform: scale(0.7);  }\r\n  45%   { -webkit-transform: scale(1.05); transform: scale(1.05); }\r\n  80%   { -webkit-transform: scale(0.95); transform: scale(0.95); }\r\n  100%  { -webkit-transform: scale(1); transform: scale(1); }\r\n}", ""]);
+	exports.push([module.id, ".modal {\r\n  -webkit-transition: all 0.3s ease;\r\n  transition: all 0.3s ease;\r\n}\r\n.modal.in {\r\n  background-color: rgba(0,0,0,0.5);\r\n}\r\n.modal.zoom .modal-dialog {\r\n    -webkit-transform: scale(0.1);\r\n    transform: scale(0.1);\r\n    top: 300px;\r\n    opacity: 0;\r\n    -webkit-transition: all 0.3s;\r\n    transition: all 0.3s;\r\n}\r\n.modal.zoom.in .modal-dialog {\r\n    -webkit-transform: scale(1);\r\n    transform: scale(1);\r\n    -webkit-transform: translate3d(0, -300px, 0);\r\n    transform: translate3d(0, -300px, 0);\r\n    opacity: 1;\r\n}\r\n.modal.bounce .modal-dialog {\r\n    -webkit-animation-name: bounce;\r\n            animation-name: bounce;\r\n}\r\n.modal.bounce.in .modal-dialog {\r\n    -webkit-animation-duration: 0.3s;\r\n            animation-duration: 0.3s;\r\n    -webkit-animation-fill-mode: both;\r\n            animation-fill-mode: both;\r\n}\r\n\r\n@-webkit-keyframes bounce {\r\n  0%    { -webkit-transform: scale(0.7); transform: scale(0.7);  }\r\n  45%   { -webkit-transform: scale(1.05); transform: scale(1.05); }\r\n  80%   { -webkit-transform: scale(0.95); transform: scale(0.95); }\r\n  100%  { -webkit-transform: scale(1); transform: scale(1); }\r\n}\r\n\r\n@keyframes bounce {\r\n  0%    { -webkit-transform: scale(0.7); transform: scale(0.7);  }\r\n  45%   { -webkit-transform: scale(1.05); transform: scale(1.05); }\r\n  80%   { -webkit-transform: scale(0.95); transform: scale(0.95); }\r\n  100%  { -webkit-transform: scale(1); transform: scale(1); }\r\n}", ""]);
 	
 	// exports
 
@@ -4056,7 +4056,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// .modal.bounce.in .modal-dialog {
 
-	//     animation-duration: 0.75s;
+	//     animation-duration: 0.3s;
 
 	//     animation-fill-mode: both;
 
